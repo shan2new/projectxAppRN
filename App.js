@@ -34,7 +34,7 @@ const HeartIcon = (props) => (
 export default () => (
   <>
     <IconRegistry icons={EvaIconsPack}/>
-    <ApplicationProvider {...eva} theme={eva.light}>
+    <ApplicationProvider {...eva} theme={eva.dark}>
       <Layout style={styles.container}>
         <Text style={styles.text} category='h1'>
           Welcome to UI Kitten 😻
